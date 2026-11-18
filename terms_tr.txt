@@ -1,0 +1,51 @@
+﻿ak47BLock - KULLANIM ŞARTLARI VE GİZLİLİK POLİTİKASI
+Sürüm 1  |  Geliştirici: Akif KIZILDERE Siber Güvenlik Ş.  |  İletişim: [İLETİŞİM E-POSTASI]
+
+Bu metni dikkatle okuyun. "Kabul ediyorum" demeniz, aşağıdaki şartları kabul ettiğiniz anlamına gelir.
+
+1. YAZILIM NE YAPAR?
+ak47BLock, "Etkinleştir" düğmesine bastığınızda bilgisayarınızda şunları yapar:
+  a) Bilgisayarınızdan çıkan ağ trafiğini, yine bilgisayarınızın içinde çalışan bir yerel proxy üzerinden geçirir.
+  b) Şifreli (HTTPS) trafiği reklamları ayıklayabilmek için çözümler. Bunu yapabilmek için bilgisayarınıza, yalnızca sizin cihazınızda üretilen bir kök sertifika kurar. Bu sertifika "Durdur"a bastığınızda veya uygulamayı kapattığınızda silinir ve özel anahtarı da silinir.
+  c) Reklam ve izleyici alan adlarına giden istekleri engeller; YouTube gibi bazı sitelerin sayfa verisindeki reklam alanlarını devre dışı bırakır.
+  d) Windows Güvenlik Duvarı'na, UDP 443 (QUIC) trafiğini engelleyen bir kural ekler. Bu kural "Durdur"a basınca silinir.
+  e) Chrome, Edge ve Firefox için uBlock Origin eklentisinin otomatik kurulmasını sağlayan tarayıcı politikalarını Windows kayıt defterine yazar ve "Güvenli DNS"i kapatır. Bu politikalar yalnızca yazılımı kaldırdığınızda silinir; "Durdur" bunları silmez.
+
+2. RİSKLER VE BİLMENİZ GEREKENLER
+  - Kök sertifika kurulu olduğu sürece (yani "Etkinleştir" açıkken) bu yazılım HTTPS trafiğinizi görebilecek konumdadır. Yazılım bu trafiği kaydetmez, saklamaz ve göndermez (bkz. madde 8), ancak bu teknik bir güven gerektirir. Güvenmiyorsanız yazılımı kullanmayın.
+  - Bazı uygulamalar (bankacılık, oyun, mesajlaşma, güvenlik yazılımları) sertifika doğrulaması yaptığı için çalışmayabilir veya hata verebilir. Bu durumda "Durdur"a basın.
+  - Tarayıcılarda "kuruluşunuz tarafından yönetiliyor" benzeri bir ifade görünebilir. Bunun nedeni yazılımın tarayıcı politikası eklemesidir.
+  - Antivirüs yazılımları bu tür araçları şüpheli olarak işaretleyebilir.
+  - Yazılım hiçbir sitede veya uygulamada reklamların tamamen engelleneceğini garanti etmez. Hizmet sağlayıcılar (ör. YouTube, Spotify) sistemlerini değiştirdikçe engelleme çalışmayabilir.
+
+3. ÜÇÜNCÜ TARAF HİZMETLERİN ŞARTLARI
+YouTube, Spotify ve benzeri hizmetlerin kendi kullanım şartları vardır ve reklam engelleme araçlarının kullanımını kısıtlayabilir. Bu hizmetleri ak47BLock ile kullanmanın doğuracağı sonuçlar (hesap kısıtlama, askıya alma vb.) size aittir. Geliştirici bu hizmetlerle bağlantılı veya onlar tarafından onaylanmış değildir.
+
+4. LİSANS VE YASAKLAR
+Yazılımı kişisel amaçla kullanabilirsiniz. Yazılımı;
+  - sahibi olmadığınız veya kullanım izni almadığınız bir bilgisayara,
+  - başkalarının trafiğini izlemek veya gizlice kayıt altına almak amacıyla,
+  - yasalara aykırı herhangi bir amaçla
+kullanamazsınız. Ortak kullanılan bir bilgisayarda diğer kullanıcıların bilgisi ve izni olmadan kullanmayın.
+
+5. GARANTİ REDDİ VE SORUMLULUK
+Yazılım "olduğu gibi" sunulur. Yürürlükteki kanunların izin verdiği ölçüde geliştirici; yazılımın kesintisiz veya hatasız çalışacağını, belirli bir amaca uygun olduğunu, uyumsuzluk veya veri kaybı yaşanmayacağını taahhüt etmez ve yazılımın kullanımından doğan dolaylı zararlardan sorumlu değildir. Tüketici mevzuatının emredici hükümleri saklıdır.
+
+6. GÜNCELLEMELER
+Yazılım düzenli olarak güncellenebilir. Güncellemeler engelleme listelerini ve kuralları içerebilir. Güncelleme için yeni kurulum dosyasını indirmeniz gerekebilir.
+
+7. KALDIRMA
+Yazılımı Windows "Uygulamalar" bölümünden kaldırdığınızda sertifika, güvenlik duvarı kuralı ve tarayıcı politikaları silinir.
+
+8. GİZLİLİK POLİTİKASI
+  - Toplanan veri: ak47BLock kişisel veri toplamaz. Ziyaret ettiğiniz siteler, trafiğiniz, şifreleriniz veya içerikleriniz kaydedilmez, saklanmaz, geliştiriciye veya herhangi bir üçüncü tarafa gönderilmez. Tüm işlem bilgisayarınızın içinde gerçekleşir.
+  - Cihazda tutulan tek kayıt: Bu şartları kabul ettiğinize dair tarih kaydıdır ve yalnızca bilgisayarınızda tutulur.
+  - Üçüncü taraflar: uBlock Origin eklentisi tarayıcınızın mağazasından (Chrome Web Store, Mozilla Eklentileri) indirilir; bu mağazaların kendi gizlilik politikaları geçerlidir.
+  - Web sitesi: Yazılımın indirme sayfası için ayrı bir gizlilik bildirimi yayınlanacaktır.
+  - KVKK: Yazılım kapsamında kişisel veri işlenmediğinden veri sorumlusu sıfatı doğmamaktadır. Sorularınız için iletişim adresine yazabilirsiniz.
+
+9. DEĞİŞİKLİKLER
+Bu metin güncellenebilir. Önemli değişikliklerde yazılım sizden yeniden onay isteyebilir.
+
+10. İLETİŞİM
+Akif KIZILDERE Siber Güvenlik Ş. - [İLETİŞİM E-POSTASI]
